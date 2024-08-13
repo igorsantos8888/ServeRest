@@ -11,5 +11,7 @@ describe('login', () => {
             .then(res => {
                 expect(res.status).to.equal(200)
             })
+        console.log(user)
     })
+
 })
